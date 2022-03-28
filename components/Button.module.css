@@ -1,0 +1,20 @@
+/*
+You do not need to worry about .error {} colliding with any other `.css` or
+`.module.css` files!
+
+Next.js supports CSS Modules using the [name].module.css file naming convention.
+
+Regular <link> stylesheets and global CSS files are still supported. CSS modules is optional
+
+In production, all CSS Module files will be automatically concatenated into 
+many minified and code-split .css files.
+
+These .css files represent hot execution paths in your application, 
+ensuring the minimal amount of CSS is loaded for your application to paint.
+
+It's also possible to use any existing CSS-in-JS solution, there's support for sass/scss
+*/
+.error {
+  color: white;
+  background-color: red;
+}
