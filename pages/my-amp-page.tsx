@@ -1,4 +1,4 @@
-import Head from "next/head"; // By default, the latest version of an amp component is always imported. If you want to customize the version, you can use next/head
+import Head from "next/head";
 
 export const config = { amp: true }; // Next.js will automatically import all components used on a page and there is no need to manually import AMP component scripts
 
@@ -8,6 +8,7 @@ export default function MyAmpPage() {
 
   return (
     <div>
+      {/* // By default, the latest version of an amp component is always imported. If you want to customize the version, you can use next/head */}
       <Head>
         <script
           async
